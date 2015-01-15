@@ -1051,7 +1051,7 @@ StateIconList[EFST_IDs.EFST_HIDING] = {
       "Hide under the ground to avoid enemy attack"
     },
     {
-      "Can be detected enemy's detecting skill"
+      "Can be detected by enemy's detecting skill"
     }
   }
 }
@@ -4461,7 +4461,7 @@ StateIconList[EFST_IDs.EFST_RAY_OF_PROTECTION] = {
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_ATK] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "You feel powerful force within the body."
@@ -4471,7 +4471,7 @@ StateIconList[EFST_IDs.EFST_GLASTHEIM_ATK] = {
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_DEF] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Protected by magic shield"
@@ -4481,7 +4481,7 @@ StateIconList[EFST_IDs.EFST_GLASTHEIM_DEF] = {
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_HEAL] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 4,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Increase efficiency power of heal"
@@ -4504,7 +4504,7 @@ StateIconList[EFST_IDs.EFST_GLASTHEIM_HIDDEN] = {
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_STATE] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Increase all stats"
@@ -4514,7 +4514,7 @@ StateIconList[EFST_IDs.EFST_GLASTHEIM_STATE] = {
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_ITEMDEF] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Increase Def"
@@ -4524,7 +4524,7 @@ StateIconList[EFST_IDs.EFST_GLASTHEIM_ITEMDEF] = {
 }
 StateIconList[EFST_IDs.EFST_GLASTHEIM_HPSP] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Increase Max HP and Max SP "
@@ -4654,7 +4654,7 @@ StateIconList[EFST_IDs.EFST_GVG_BLIND] = {
 }
 StateIconList[EFST_IDs.EFST_JP_EVENT01] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Increase physical damage against fish monster"
@@ -4664,7 +4664,7 @@ StateIconList[EFST_IDs.EFST_JP_EVENT01] = {
 }
 StateIconList[EFST_IDs.EFST_JP_EVENT02] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Increase magic damage against fish monster"
@@ -4674,7 +4674,7 @@ StateIconList[EFST_IDs.EFST_JP_EVENT02] = {
 }
 StateIconList[EFST_IDs.EFST_JP_EVENT03] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Reduce damage taken from fish monster"
@@ -4697,7 +4697,7 @@ StateIconList[EFST_IDs.EFST_JP_EVENT04] = {
 }
 StateIconList[EFST_IDs.EFST_GEFFEN_MAGIC1] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Increase physical damage against demi human monster"
@@ -4707,7 +4707,7 @@ StateIconList[EFST_IDs.EFST_GEFFEN_MAGIC1] = {
 }
 StateIconList[EFST_IDs.EFST_GEFFEN_MAGIC2] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Increase magic damage to demi human monster"
@@ -4717,7 +4717,7 @@ StateIconList[EFST_IDs.EFST_GEFFEN_MAGIC2] = {
 }
 StateIconList[EFST_IDs.EFST_GEFFEN_MAGIC3] = {
   haveTimeLimit = 1,
-  posTimeLimitStr = 3,
+  posTimeLimitStr = 2,
   descript = {
     {
       "Reduce damage taken from demi human monster"
@@ -5566,7 +5566,61 @@ StateIconList[EFST_IDs.EFST_JUMPINGCLAN] = {
   descript = {
     {"Jumping Clan", COLOR_TITLE_BUFF},
     {
-      "All State + 1."
+      "All Stats + 1."
+    }
+  }
+}
+StateIconList[EFST_IDs.EFST_ESSENCE_OF_TIME] = {
+  haveTimeLimit = 1,
+  posTimeLimitStr = 2,
+  descript = {
+    {
+      "시간의 조각 응집중",
+      COLOR_SYSTEM
+    },
+    {"%s", COLOR_TIME},
+    {
+      "이미 시간의 정수를 얻었습니다."
+    }
+  }
+}
+StateIconList[EFST_IDs.EFST_LIMIT_POWER_BOOSTER] = {
+  haveTimeLimit = 1,
+  posTimeLimitStr = 2,
+  descript = {
+    {
+      "한정판 파워 부스터",
+      COLOR_TITLE_BUFF
+    },
+    {"%s", COLOR_TIME},
+    {
+      "ATK, MATK 증가"
+    },
+    {
+      "HIT, FLEE 증가"
+    },
+    {
+      "공격속도 증가"
+    },
+    {
+      "SP 소모량 감소"
+    },
+    {
+      "고정 캐스팅 감소"
+    }
+  }
+}
+StateIconList[EFST_IDs.EFST_DRACULA_CARD] = {
+  haveTimeLimit = 1,
+  posTimeLimitStr = 2,
+  descript = {
+    {
+      "봉인된 베르제브브",
+      COLOR_TITLE_BUFF
+    },
+    {"%s", COLOR_TIME},
+    {
+      "변동 캐스팅 시간 감소"
     }
   }
 }

@@ -2392,7 +2392,7 @@ SKILL_DESCRIPT = {
     "^777777Requirement : Finish Quest, Novice Only^000000",
     "Skill Form: ^777777Supportive^000000",
     "SP Cost: 1",
-    "Description: Feign death to avoid the menace",
+    "Description: ^777777Feign death to avoid the menace",
     "of nearby enemies. The Play Dead status is",
     "cancelled by casting this skill again.^000000"
   },
@@ -7434,11 +7434,11 @@ SKILL_DESCRIPT = {
     "caster to damage enemies within the skill's",
     "range. Each cast consumes 1 Wind Stone.^000000",
     "Damage & Range by Skill Level",
-    "[Lv 1]: ^777777+200% Matk, 5*5 cells^000000",
-    "[Lv 2]: ^777777+240% Matk, 5*5 cells^000000",
-    "[Lv 3]: ^777777+280% Matk, 7*7 cells^000000",
-    "[Lv 4]: ^777777+320% Matk, 7*7 cells^000000",
-    "[Lv 5]: ^777777+360% Matk, 9*9 cells^000000"
+    "[Lv 1]: ^777777+200% Matk, 3*3 cells^000000",
+    "[Lv 2]: ^777777+240% Matk, 3*3 cells^000000",
+    "[Lv 3]: ^777777+280% Matk, 5*5 cells^000000",
+    "[Lv 4]: ^777777+320% Matk, 5*5 cells^000000",
+    "[Lv 5]: ^777777+360% Matk, 7*7 cells^000000"
   },
   [SKID.NJ_KAMAITACHI] = {
     "First Wind",
@@ -7740,7 +7740,6 @@ SKILL_DESCRIPT = {
   [SKID.NPC_WIDESOULDRAIN] = {
   },
   [SKID.ALL_INCCARRY] = {
-    "\t\t\t",
     "Enlarge Weight Limit",
     "Skill Form: ^000099Passive^000000",
     "Description: ^777777Increase Maximum Weight Limit.^000000",
@@ -7802,7 +7801,6 @@ SKILL_DESCRIPT = {
     "Description : ^777777Move to Mora Town. 3 seconds of fixed casting. Cannot use it again for 5 minutes.^000000"
   },
   [SKID.ALL_ODINS_POWER] = {
-
     "Odin's Power",
     "Type:^777777 Active / Buff ^000000",
     "Description : Temporarily increases Magical and Physical attack damage but lowers DEF and MDEF",
@@ -8154,11 +8152,11 @@ SKILL_DESCRIPT = {
     "^777777Skill Requirement : Dragon Training 2^000000",
     "Skill Form : ^777777Debuff^000000",
     "Description : ^777777Commands the dragon to howl, causing Fear status at a certain chance to all enemies in range.^000000",
-    "[Lv 1] : ^7777773 cell AoE / 56% Fear Chance^000000",
-    "[Lv 2] : ^7777774 cell AoE / 62% Fear Chance^000000",
-    "[Lv 3] : ^7777775 cell AoE / 68% Fear Chance^000000",
-    "[Lv 4] : ^7777776 cell AoE / 74% Fear Chance^000000",
-    "[Lv 5] : ^77777777 cell AoE / 80% Fear Chance^000000"
+    "[Lv 1] : ^7777773 cells AoE / 56% Fear Chance^000000",
+    "[Lv 2] : ^7777774 cells AoE / 62% Fear Chance^000000",
+    "[Lv 3] : ^7777775 cells AoE / 68% Fear Chance^000000",
+    "[Lv 4] : ^7777776 cells AoE / 74% Fear Chance^000000",
+    "[Lv 5] : ^77777777 cells AoE / 80% Fear Chance^000000"
   },
   [SKID.RK_RUNEMASTERY] = {
     "Rune Mastery",
@@ -8222,12 +8220,12 @@ SKILL_DESCRIPT = {
     "Description : ^777777Attacks a distant enemy bringing",
     "them close to the caster. Can be used on a",
     "party member, but won't give damage. Gives",
-    "Additional damage with Lv 10 Spear Mastery.^000000",
-    "[Lv 1] : ^77777715 SP / 5 Cell Range / ATK 50%^000000",
-    "[Lv 2] : ^77777718 SP / 6 Cell Range / ATK 100%^000000",
-    "[Lv 3] : ^77777721 SP / 7 Cell Range / ATK 150%^000000",
-    "[Lv 4] : ^77777724 SP / 8 Cell Range / ATK 200%^000000",
-    "[Lv 5] : ^77777727 SP / 9 Cell Range / ATK 250%^000000"
+    "additional damage with Lv 10 Spear Mastery.^000000",
+    "[Lv 1] : ^77777750% ATK, 5 cells range, 15sp^000000",
+    "[Lv 2] : ^777777100% ATK, 6 cells range, 18sp^000000",
+    "[Lv 3] : ^777777150% ATK, 7 cells range, 21sp^000000",
+    "[Lv 4] : ^777777200% ATK, 8 cells range, 24sp^000000",
+    "[Lv 5] : ^777777250% ATK, 9 cells range, 27sp^000000"
   },
   [SKID.GC_VENOMIMPRESS] = {
     "Venom Impression",
@@ -8235,12 +8233,12 @@ SKILL_DESCRIPT = {
     "^777777Skill Requirement : Enchant Poison 3 ^000000",
     "Skill Form : ^777777Active / Debuff  ^000000",
     "Description : ^777777Weaken the enemy's resistance",
-    "against Venom type attacks in a 10x10 range.^000000",
-    "[Lv 1] : ^777777Weaken venom resistance by 10%^000000",
-    "[Lv 2] : ^777777Weaken venom resistance by 20%^000000",
-    "[Lv 3] : ^777777Weaken venom resistance by 30%^000000",
-    "[Lv 4] : ^777777Weaken venom resistance by 40%^000000",
-    "[Lv 5] : ^777777Weaken venom resistance by 50%^000000"
+    "against ^702180Poison^000000 type attacks in a 10x10 range.^000000",
+    "[Lv 1] : ^777777Poison resistance -10%^000000",
+    "[Lv 2] : ^777777Poison resistance -20%^000000",
+    "[Lv 3] : ^777777Poison resistance -30%^000000",
+    "[Lv 4] : ^777777Poison resistance -40%^000000",
+    "[Lv 5] : ^777777Poison resistance -50%^000000"
   },
   [SKID.GC_CROSSIMPACT] = {
     "Cross Impact",
@@ -8249,11 +8247,11 @@ SKILL_DESCRIPT = {
     "Skill Form : ^777777Active / Buff  ^000000",
     "Description : ^777777Quickly attack 1 target 7 times.",
     "3 cells effective range.^000000",
-    "[Lv 1] : ^777777Damage 1100%^000000",
-    "[Lv 2] : ^777777Damage 1200%^000000",
-    "[Lv 3] : ^777777Damage 1300%^000000",
-    "[Lv 4] : ^777777Damage 1400%^000000",
-    "[Lv 5] : ^777777Damage 1500%^000000"
+    "[Lv 1] : ^7777771100% ATK^000000",
+    "[Lv 2] : ^7777771200% ATK^000000",
+    "[Lv 3] : ^7777771300% ATK^000000",
+    "[Lv 4] : ^7777771400% ATK^000000",
+    "[Lv 5] : ^7777771500% ATK^000000"
   },
   [SKID.GC_DARKILLUSION] = {
     "Dark Illusion",
@@ -8261,11 +8259,11 @@ SKILL_DESCRIPT = {
     "^777777Skill Requirement : Cross Impact 3 ^000000",
     "Skill Form : ^777777Active / Damage - Special ^000000",
     "Description : ^777777Quickly reach and attack an enemy. Has a low chance of activating Cross Impact.^000000",
-    "[Lv 1] : ^777777Damage 100% / 5 cell range^000000",
-    "[Lv 2] : ^777777Damage 100% / 6 cell range^000000",
-    "[Lv 3] : ^777777Damage 100% / 7 cell range^000000",
-    "[Lv 4] : ^777777Damage 100% / 8 cell range^000000",
-    "[Lv 5] : ^777777Damage 100% / 9 cell range^000000"
+    "[Lv 1] : ^777777100% ATK / 5 cells range^000000",
+    "[Lv 2] : ^777777100% ATK / 6 cells range^000000",
+    "[Lv 3] : ^777777100% ATK / 7 cells range^000000",
+    "[Lv 4] : ^777777100% ATK / 8 cells range^000000",
+    "[Lv 5] : ^777777100% ATK / 9 cells range^000000"
   },
   [SKID.GC_RESEARCHNEWPOISON] = {
     "New Poison Research",
@@ -8311,7 +8309,7 @@ SKILL_DESCRIPT = {
   [SKID.GC_CREATENEWPOISON] = {
     "New Poison Creation",
     "Max Level : 1",
-    "^777777Skill Requirement : New Poison Research 1  ^000000",
+    "^777777Skill Requirement : New Poison Research 1^000000",
     "Skill Form : ^777777Active  ^000000",
     "Description : ^777777Create new poison from",
     "the list of possible poisons shown according",
@@ -8322,9 +8320,10 @@ SKILL_DESCRIPT = {
     "Antidote",
     "Max Level : 1",
     "^777777Skill Requirement : New Poison Research 5  ^000000",
-    "Skill Form : ^777777Active / Detoxification  ^000000",
-    "Description : ^777777Can detoxify Guillotine Cross's",
-    "poison status and 1 target consuming 1 Antidote. ^000000"
+    "Skill Form : ^777777Active / Detoxification^000000",
+    "Description : ^777777Remove Guillotine Cross's",
+    "poison effect on 1 target.^000000",
+    "^008800Consume 1 Antidote.^000000"
   },
   [SKID.GC_POISONINGWEAPON] = {
     "Poisonous Weapon",
@@ -8333,46 +8332,51 @@ SKILL_DESCRIPT = {
     "Skill Form : ^777777Active / Buff  ^000000",
     "Description : ^777777Make the caster's weapon poisoned",
     "by Guillotine Cross's new poison.^000000",
-    "[Lv 1] : ^77777720 SP / 4% Rate / 60 sec. duration ^000000",
-    "[Lv 2] : ^77777724 SP / 6% Rate / 120 sec. duration ^000000",
-    "[Lv 3] : ^77777728 SP / 8% Rate / 180 sec. duration ^000000",
-    "[Lv 4] : ^77777732 SP / 10% Rate / 240 sec. duration ^000000",
-    "[Lv 5] : ^77777736 SP / 12% Rate / 300 sec. duration ^000000"
+    "[Lv 1] : ^7777774% Rate, 60 sec. duration, 20sp^000000",
+    "[Lv 2] : ^7777776% Rate, 120 sec. duration, 24sp^000000",
+    "[Lv 3] : ^7777778% Rate, 180 sec. duration, 28sp^000000",
+    "[Lv 4] : ^77777710% Rate, 240 sec. duration, 32sp^000000",
+    "[Lv 5] : ^77777712% Rate, 300 sec. duration, 36sp^000000"
   },
   [SKID.GC_WEAPONBLOCKING] = {
     "Weapon Blocking",
     "Max Level : 5",
     "^777777Skill Requirement : Lefthand Mastery 5 ^000000",
     "Skill Form : ^777777Active / Buff  ^000000",
-    "Description : ^777777Has a chance to cancel an enemy's",
+    "Description : Has a chance to cancel an enemy's",
     "melee physical attack when skill is active.",
     "Can use Counter Slash or Weapon Crush",
     "successively. Continuously consumes SP while",
     "this skill is activated. If skill is recast,",
     "Weapon Blocking is canceled.",
     "Skill Duration is 180 seconds^000000",
-    "[Lv 1] : ^77777740 SP / Defense Rate 12%^000000",
-    "[Lv 2] : ^77777736 SP / Defense Rate 14%^000000",
-    "[Lv 3] : ^77777732 SP / Defense Rate 16%^000000",
-    "[Lv 4] : ^77777728 SP / Defense Rate 18%^000000",
-    "[Lv 5] : ^77777724 SP / Defense Rate 20%^000000"
+    "[Lv 1] : ^77777712% block rate, 40sp^000000",
+    "[Lv 2] : ^77777714% block rate, 36sp^000000",
+    "[Lv 3] : ^77777716% block rate, 32sp^000000",
+    "[Lv 4] : ^77777718% block rate, 28sp^000000",
+    "[Lv 5] : ^77777720% block rate, 24sp^000000"
   },
   [SKID.GC_COUNTERSLASH] = {
     "Counter Slash",
     "Max Level : 5",
-    "^777777Skill Requirement : Weapon Blocking 1 ^000000",
+    "^777777Skill Requirement : Weapon Blocking 1^000000",
     "Skill Form : ^777777Active / Buff  ^000000",
-    "Description : ^777777When attack block success on Weapon Blocking status, you can attack the enemy successively with Counter Slash. Gives damage to all enemies in 3x3 range from the caster. Damage affected by caster's AGI.^000000",
-    "[Lv 1] : ^777777ATK 400% ^000000",
-    "[Lv 2] : ^777777ATK 500% ^000000",
-    "[Lv 3] : ^777777ATK 600% ^000000",
-    "[Lv 4] : ^777777ATK 700% ^000000",
-    "[Lv 5] : ^777777ATK 800% ^000000"
+    "Description : When an attack successfully",
+    "blocked by Weapon Blocking, you can attack",
+    "the enemy successively with Counter Slash.",
+    "Gives damage to all enemies in 3x3 range",
+    "from the caster. Damage affected by caster's",
+    "AGI.^000000",
+    "[Lv 1] : ^777777400% ATK^000000",
+    "[Lv 2] : ^777777500% ATK^000000",
+    "[Lv 3] : ^777777600% ATK^000000",
+    "[Lv 4] : ^777777700% ATK^000000",
+    "[Lv 5] : ^777777800% ATK^000000"
   },
   [SKID.GC_WEAPONCRUSH] = {
     "Weapon Crush",
     "Max Level : 5",
-    "^777777Skill Requirement : Weapon Blocking 1 ^000000",
+    "^777777Skill Requirement : Weapon Blocking 1^000000",
     "Skill Form : ^777777Active / Debuff  ^000000",
     "Description : ^777777If Weapon Blocking skill",
     "is successful, you can attack the enemy",
@@ -8412,22 +8416,23 @@ SKILL_DESCRIPT = {
   [SKID.GC_CLOAKINGEXCEED] = {
     "Cloaking Exceed",
     "Max Level : 5",
-    "^777777Skill Requirement : Cloaking 3 ^000000",
-    "Skill Form : ^777777Active / Special  ^000000",
-    "Description : ^777777Cannot be found by Insect and",
-    "Demon type monsters. Not released until the",
-    "caster is hit 3 times. Increase Movement",
-    "Speed according to Skill Level. ^000000",
-    "[Lv 1] : ^777777Consume SP 9 per sec. / Movement",
-    "Speed 100% / Endure the damage once^000000",
-    "[Lv 2] : ^777777Consume SP 8 per sec. / Movement",
-    "Speed 110% / Endure the damage once^000000",
-    "[Lv 3] : ^777777Consume SP 7 per sec. / Movement",
-    "Speed 120% / Endure the damage twice^000000",
-    "[Lv 4] : ^777777Consume SP 6 per sec. / Movement",
-    "Speed 130% / Endure the damage twice^000000",
-    "[Lv 5] : ^777777Consume SP 5 per sec. / Movement",
-    "Speed 140% / Endure the damage three times^000000"
+    "^777777Skill Requirement : Cloaking 3^000000",
+    "Skill Form : ^777777Active / Special^000000",
+    "Description : ^777777Cannot be detected by Insect",
+    "and Demon type monsters. Enable to endure",
+    "damage for a few time, depend on the skill",
+    "level. Increase movement speed according to",
+    "skill Level.^000000",
+    "[Lv 1] : ^777777100% movement speed, endure 1 damage,",
+    "consume 9 sp per seconds^000000",
+    "[Lv 2] : ^777777110% movement speed, endure 1 damage,",
+    "consume 8 sp per seconds^000000",
+    "[Lv 3] : ^777777120% movement speed, endure 2 damage,",
+    "consume 7 sp per seconds^000000",
+    "[Lv 4] : ^777777130% movement speed, endure 2 damage,",
+    "consume 6 sp per seconds^000000",
+    "[Lv 5] : ^777777140% movement speed, endure 2 damage,",
+    "consume 5 sp per seconds^000000"
   },
   [SKID.GC_PHANTOMMENACE] = {
     "Phantom Menace",
@@ -8454,24 +8459,24 @@ SKILL_DESCRIPT = {
   [SKID.GC_ROLLINGCUTTER] = {
     "Rolling Cutter",
     "Max Level : 5",
-    "^777777Skill Requirement : Sonic Blow 10 ^000000",
-    "Skill Form : ^777777Active / Damage ^000000",
+    "^777777Skill Requirement : Sonic Blow 10^000000",
+    "Skill Form : ^777777Active / Damage^000000",
     "Description : ^777777Skill for Katar, gives damage to",
     "enemies within range by spinning with a",
     "Katar. Your spinning counter is accumulated",
     "whenever you spin and it increases the damage",
     "of Cross Ripper Slasher. Spinning counter can",
     "be accumulated a maximum 10 times.^000000",
-    "[Lv 1] : ^777777Damage 100% / effective range 3x3 cells^000000",
-    "[Lv 2] : ^777777Damage 150% / effective range 3x3 cells^000000",
-    "[Lv 3] : ^777777Damage 200% / effective range 3x3 cells^000000",
-    "[Lv 4] : ^777777Damage 250% / effective range 3x3 cells^000000",
-    "[Lv 5] : ^777777Damage 300% / effective range 5x5 cells^000000"
+    "[Lv 1] : ^777777100% ATK / 3x3 cells aoe^000000",
+    "[Lv 2] : ^777777150% ATK / 3x3 cells aoe^000000",
+    "[Lv 3] : ^777777200% ATK / 3x3 cells aoe^000000",
+    "[Lv 4] : ^777777250% ATK / 3x3 cells aoe^000000",
+    "[Lv 5] : ^777777300% ATK / 5x5 cells aoe^000000"
   },
   [SKID.GC_CROSSRIPPERSLASHER] = {
     "Cross Ripper Slasher",
     "Max Level : 5",
-    "^777777Skill Requirement : Rolling Cutter 1  ^000000",
+    "^777777Skill Requirement : Rolling Cutter 1^000000",
     "Skill Form : ^777777Active / Damage ^000000",
     "Description : ^777777Can be activated by consuming",
     "spinning counts from Rolling Cutter.",
@@ -8479,11 +8484,11 @@ SKILL_DESCRIPT = {
     "in range while spinning, causing significant",
     "amount of damage. Damage is increased by",
     "the number of counters.",
-    "[Lv 1] : ^777777Damage 480% / Range 9 cells^000000",
-    "[Lv 2] : ^777777Damage 560% / Range 10 cells^000000",
-    "[Lv 3] : ^777777Damage 640% / Range 11 cells^000000",
-    "[Lv 4] : ^777777Damage 720% / Range 12 cells^000000",
-    "[Lv 5] : ^777777Damage 800% / Range 13 cells^000000"
+    "[Lv 1] : ^777777480% ATK / Range 9 cells^000000",
+    "[Lv 2] : ^777777560% ATK / Range 10 cells^000000",
+    "[Lv 3] : ^777777640% ATK / Range 11 cells^000000",
+    "[Lv 4] : ^777777720% ATK / Range 12 cells^000000",
+    "[Lv 5] : ^777777800% ATK / Range 13 cells^000000"
   },
   [SKID.AB_JUDEX] = {
     "Judex",
@@ -8493,11 +8498,11 @@ SKILL_DESCRIPT = {
     "Description : ^777777A magic attack that deals Holy",
     "attribute damage to a target and all enemies",
     "in the surrounding 3 cells.^000000",
-    "[Lv 1] : ^777777MATK 300%^000000",
-    "[Lv 2] : ^777777MATK 320%^000000",
-    "[Lv 3] : ^777777MATK 340%^000000",
-    "[Lv 4] : ^777777MATK 360%^000000",
-    "[Lv 5] : ^777777MATK 400%^000000"
+    "[Lv 1] : ^777777300% MATK^000000",
+    "[Lv 2] : ^777777320% MATK^000000",
+    "[Lv 3] : ^777777340% MATK^000000",
+    "[Lv 4] : ^777777360% MATK^000000",
+    "[Lv 5] : ^777777400% MATK^000000"
   },
   [SKID.AB_ANCILLA] = {
     "Ancilla",
@@ -12812,11 +12817,11 @@ SKILL_DESCRIPT = {
     "^777777Requirement: Dark Illusion 5^000000",
     "Type:^33cc00 Active / Damage - Special^000000",
     "Description: ^777777Give an enemy a painful wound for 5 seconds, causing short ranged attacks to deal greater damage to the target.^000000",
-    "[Lv 1] : ^777777100% Damage / Melee damage received +30%^000000",
-    "[Lv 2] : ^777777200% Damage / Melee damage received +60%^000000",
-    "[Lv 3] : ^777777300% Damage / Melee damage received +90%^000000",
-    "[Lv 4] : ^777777400% Damage / Melee damage received +120%^000000",
-    "[Lv 5] : ^777777500% Damage / Melee damage received +150%^000000"
+    "[Lv 1] : ^777777100% ATK / Melee damage received +30%^000000",
+    "[Lv 2] : ^777777200% ATK / Melee damage received +60%^000000",
+    "[Lv 3] : ^777777300% ATK / Melee damage received +90%^000000",
+    "[Lv 4] : ^777777400% ATK / Melee damage received +120%^000000",
+    "[Lv 5] : ^777777500% ATK / Melee damage received +150%^000000"
   },
   [SKID.RA_UNLIMIT] = {
     "No Limits",
@@ -13291,5 +13296,13 @@ SKILL_DESCRIPT = {
     "Skill Form : ^000099Active^000000",
     "Target : ^777777Dead Player^000000",
     "Description : ^777777Revive All Players Around the caster.^000000"
+  },
+  [SKID.ALL_NIFLHEIM_RECALL] = {
+    "Return to Niflheim",
+    "Description : ^777777Teleport to Niflheim, 5 minutes after use delay.^000000"
+  },
+  [SKID.ALL_PRONTERA_RECALL] = {
+    "Return to Prontera",
+    "Description : ^777777Teleport to Prontera, 5 minutes after use delay.^000000"
   }
 }

@@ -26838,5 +26838,29 @@ SKILL_INFO_LIST = {
 			1,
 			1,
 		},
+	},
+	[SKID.ALL_NIFLHEIM_RECALL] ={
+		"ALL_NIFLHEIM_RECALL",
+		SkillName = "Return to Niflheim",
+		MaxLv = 1,
+		SpAmount = {
+			0,
+		},
+		bSeperateLv = false,
+		AttackRange = {
+			1,
+		},
+	},
+	[SKID.ALL_PRONTERA_RECALL] ={
+		"ALL_PRONTERA_RECALL",
+		SkillName = "Return to Prontera",
+		MaxLv = 1,
+		SpAmount = {
+			0,
+		},
+		bSeperateLv = false,
+		AttackRange = {
+			1,
+		},
 	}
 }
